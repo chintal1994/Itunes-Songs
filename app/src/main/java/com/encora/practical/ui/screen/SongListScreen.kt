@@ -75,7 +75,7 @@ fun TopSongsListScreen(viewModel: SongViewModel, navController: NavHostControlle
                         .padding(padding),
                     contentAlignment = Alignment.Center
                 ) {
-                    Text("No songs available", style = MaterialTheme.typography.bodyMedium)
+                    Text("Loading...", style = MaterialTheme.typography.bodyMedium)
                 }
             } else {
                 LazyColumn(
